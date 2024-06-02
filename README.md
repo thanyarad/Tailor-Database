@@ -73,4 +73,4 @@ We would like to express our gratitude to the following:
 
 ### Contact
 
-For questions or feedback, please reach out to us at abhiksalian0728@gmail.com
+For questions or feedback, please reach out to us at thanyarkottary2003@gmail.com
