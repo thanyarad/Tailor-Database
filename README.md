@@ -1,73 +1,25 @@
 # Tailor-Database
 **SmartStitch**
 SmartStitch is an innovative web platform designed to streamline the process of ordering tailor-made dresses. Clients can easily provide their measurements and place orders without the need to visit a tailor in person.
-# Project Title
-
-Brief description of your project and its purpose.
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
+1. [Prerequisites](#Prerequisites)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Features](#Features)
+5. [Contributing](#Contributing)
+6. [Acknowledgments](#Acknowledgments)
 7. [Contact](#contact)
 
-## Introduction
-
-More detailed description of your project, why it exists, and what problem it solves.
-
-## Features
-
-List the main features of your project:
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Installation
-
-Instructions on how to install your project. Include prerequisites and step-by-step installation guide.
-
-### Prerequisites
-
-List any software or tools that need to be installed before setting up your project.
-- Prerequisite 1
-- Prerequisite 2
-
-### Step-by-Step Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/your-repository.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd your-repository
-    ```
-3. Install dependencies:
-    ```sh
-    npm install
-    ```
-    or
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-Instructions on how to use your project after installation.
-
-### Running the Code
-
-Provide clear steps on how to run
-
+**Getting Started**
 **##Prerequisites**
 Ensure you have the following prerequisites before using SmartStitch: Web browser with JavaScript enabled
 
-**##Installation**
+
+###  Installation
 No installation is required for clients. Tailor must login on the SmartStitch platform. For developers contributing to the project, follow these steps:
- ```sh
+
+```sh
 # Clone the repository
 git clone https://github.com/your-username/SmartStitch.git
 
@@ -76,7 +28,7 @@ cd SmartStitch
 
 # Install dependencies
 npm install
- ```sh
+```
 
 ## Usage
 
@@ -91,3 +43,14 @@ npm install
 * **User-Friendly Interface:** Intuitive design for easy measurement input and order placement.
 * **Customization Options:** Clients can customize dresses based on their preferences.
 * **Order Tracking:** Real-time tracking of order status for both clients and tailors.
+
+**##Contributing**
+We welcome contributions! If you'd like to contribute to SmartStitch, please follow our Contribution Guidelines.
+
+**##Acknowledgments**
+We would like to express our gratitude to the following:
+
+[1] Achour, Mehdi, Friedhelm Betz, Antony Dovgal, Nuno Lopes, Hannes Magnusson, Georg Richter, Damien Seguy, and Jakub Vrana. 1997. PHP Manual. Edited by Peter Cowburn. N.p.: PHP Documentation Group. [2] “CSS Tutorial.” n.d. W3Schools. Accessed December 3, 2023. https://www.w3schools.com/css/. [3] Draw.io. n.d. draw.io. Accessed December 2, 2023. http://draw.io. [4] Glowtouch LLC. n.d. “GlowTouch logo.” GlowTouch LLC - Crunchbase Company Profile & Funding. https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/mqiwzcgrmoio8ioflmlw. [5] “HTML Tutorial.” n.d. W3Schools. Accessed December 3, 2023. https://www.w3schools.com/html/. [6] “JavaScript Tutorial.” n.d. W3Schools. Accessed December 3, 2023. https://www.w3schools.com/js/default.asp. [7] “Learn HTML Tutorial - javatpoint.” n.d. Javatpoint. Accessed December 3, 2023. https://www.javatpoint.com/html-tutorial. [8] phpmyadmin. n.d. phpMyAdmin. Accessed December 2, 2023. https://www.phpmyadmin.net/. [9] “PHP Tutorial.” n.d. W3Schools. Accessed December 3, 2023. https://www.w3schools.com/php/default.asp. [10] “SQL Tutorial.” n.d. W3Schools. Accessed December 3, 2023. https://www.w3schools.com/sql/default.asp. [11] “White Glove Customer Service, Technology and BPO Services.” n.d. GlowTouch. Accessed December 2, 2023. https://www.glowtouch.com/discover-glowtouch/. [12] 000webhost. n.d. Free Web Hosting with PHP, MySQL and cPanel, No Ads. Accessed December 3, 2023. https://in.000webhost.com/.
+
+**##Contact**
+For questions or feedback, please reach out to us at thanyarkottary2003@gmail.com
