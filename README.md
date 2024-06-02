@@ -7,9 +7,8 @@ SmartStitch is an innovative web platform designed to streamline the process of 
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Features](#Features)
-5. [Contributing](#Contributing)
-6. [Acknowledgments](#Acknowledgments)
-7. [Contact](#contact)
+5. [Acknowledgments](#Acknowledgments)
+6. [Contact](#contact)
 
 **Getting Started**
 ## Prerequisites
@@ -44,8 +43,6 @@ npm install
 * **Customization Options:** Clients can customize dresses based on their preferences.
 * **Order Tracking:** Real-time tracking of order status for both clients and tailors.
 
-## Contributing
-We welcome contributions! If you'd like to contribute to SmartStitch, please follow our Contribution Guidelines.
 
 ## Acknowledgments
 We would like to express our gratitude to the following:
