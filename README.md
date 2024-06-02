@@ -2,6 +2,21 @@
 **SmartStitch**
 SmartStitch is an innovative web platform designed to streamline the process of ordering tailor-made dresses. Clients can easily provide their measurements and place orders without the need to visit a tailor in person.
 
+**##Prerequisites**
+Ensure you have the following prerequisites before using SmartStitch: Web browser with JavaScript enabled
+
+**##Installation**
+No installation is required for clients. Tailor must login on the SmartStitch platform. For developers contributing to the project, follow these steps:
+
+# Clone the repository
+git clone https://github.com/your-username/SmartStitch.git
+
+# Change directory
+cd SmartStitch
+
+# Install dependencies
+npm install
+
 ## Usage
 
 1. **Visit the SmartStitch website.**
