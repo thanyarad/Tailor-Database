@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "hii";
+  src: url("fonts/TT-Norms-sv/TT Norms sv/TTNorms-Regular.otf");
+}
+* {
+  text-decoration: none;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "hii";
+}
+body {
+  background-color: #e0e3ce;
+}
+.navbar {
+  display: flex;
+  background-color: #7e876d;
+  border-bottom: 0.8rem solid #2b300d;
+  height: 6rem;
+}
+.navdiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.2rem;
+  color: #2b300d;
+  font-weight: bold;
+}
+.order {
+  margin: 3rem;
+  background-color: #e0e3ce;
+  width: min-content;
+  align-content: center;
+  position: relative;
+  padding: 2rem;
+  padding-top: 2rem;
+  color: #2b300d;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 0.6rem 0rem #2b300d;
+}
+.order h3 {
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+.submit {
+  text-align: center;
+  margin-top: 1rem;
+}
+.submit button {
+  font-weight: bold;
+  border: none;
+  background-color: #2b300d;
+  color: #e0e3ce;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.4rem;
+}
+.order button:hover {
+  opacity: 0.7;
+}
+.date {
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #e0e3ce;
+  color: #7e876d;
+  border-radius: 3rem;
+  text-transform: uppercase;
+}
+
+#dateInput {
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+#alertMessage {
+  color: #2b300d;
+  font-weight: bold;
+  display: none;
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+
+table,
+th,
+td {
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 0.4rem;
+  border-spacing: 1rem;
+  width: max-content;
+  text-wrap: wrap;
+}
+td {
+  width: min-content;
+}
+.order td {
+  border-radius: 1rem;
+  padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+  background-color: #e2e2e2;
+  box-shadow: 0rem 0rem 0.1rem 0rem #2b300d;
+  line-height: 3rem;
+}
+.order th {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+label {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+.order input {
+  font-size: 1.4rem;
+  text-align: left;
+  border: 0.1rem solid grey;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #2b300d;
+  background-color: #e2e2e2;
+  margin: 0.75rem;
+  width: fit-content;
+  cursor: pointer;
+  /* border: 2px solid black; */
+}
+
+input::placeholder {
+  font-size: 1.4rem;
+  color: #7e876d;
+}
+.heading {
+  font-size: 1.8rem;
+}
+.expecteddelivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 550px) {
+  .order table {
+    width: auto;
+  }
+  .order {
+    width: auto;
+  }
+}

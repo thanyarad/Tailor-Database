@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e0e3ce;
+}
+
+/* main */
+main {
+  min-height: 90vh;
+}
+table,
+th,
+td {
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 0.4rem;
+  border-spacing: 1rem;
+  width: max-content;
+  text-wrap: wrap;
+}
+td {
+  width: min-content;
+}
+h3 {
+  font-size: 1.6rem;
+}
+.order td {
+  border-right: 0.1rem dotted grey;
+  border-bottom: 0.1rem dotted grey;
+  /* border-left: 0.1rem solid grey; */
+}
+.order th {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.measurement {
+  background-color: #e0e3ce;
+  width: min-content;
+  padding: 2rem 4rem 4rem 4rem;
+  position: relative;
+  margin: 3rem 4rem 4rem 4rem;
+  color: #2b300d;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.3rem 0rem #2b300d;
+}
+.measurement-details {
+  display: flex;
+  justify-content: space-evenly;
+}
+.order {
+  background-color: #e0e3ce;
+  width: fit-content;
+  padding: 2rem 4rem 4rem 4rem;
+  margin: 3rem 4rem 4rem 4rem;
+  color: #2b300d;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.3rem 0rem #2b300d;
+}
+.details {
+  background-color: #e0e3ce;
+  width: min-content;
+  padding: 2rem 4rem 4rem 4rem;
+  margin: 3rem 4rem 4rem 4rem;
+  position: relative;
+  color: #2b300d;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.3rem 0rem #2b300d;
+  text-align: left;
+}
+.details-both {
+  display: flex;
+}
+.details-edit input,
+.gender {
+  font-size: 1.4rem;
+  text-align: left;
+  border: 0.1rem solid grey;
+  padding: 1.1rem 1.2rem 1.1rem 1.2rem;
+  border-radius: 1rem;
+  color: #2b300d;
+  background-color: #e2e2e2;
+  margin-top: 0.75rem;
+  width: 25rem;
+  /* border: 2px solid black; */
+}
+.details-edit {
+  margin-top: 4.75rem;
+}
+.gender {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  accent-color: #2b300d;
+}
+.gender input {
+  padding: 0%;
+  margin: 0%;
+  height: 1rem;
+  width: 2rem;
+}
+
+.details input::placeholder {
+  color: #7e876d;
+}
+
+.details td,
+.measure-pants td,
+.measure-shirts td {
+  border-radius: 1rem;
+  padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+  background-color: #e2e2e2;
+  box-shadow: 0rem 0rem 0.1rem 0rem #2b300d;
+  line-height: 3rem;
+}
+.details th,
+.measure-pants th,
+.measure-shirts th {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.main-info h3 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.measurement h4 {
+  font-size: 1.9rem;
+}
+
+.edit-icon {
+  text-align: right;
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+}
+.edit-icon button {
+  transition: 0.3s;
+  border: none;
+  background-color: #2b300d;
+  color: #e0e3ce;
+  padding: 1rem 1.2rem 1rem 1.2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.edit-icon button:hover {
+  opacity: 0.7;
+}
+.container span {
+  font-size: 16px;
+}
+.Credential input {
+  font-size: 1.4rem;
+  padding: 0.2rem;
+  margin: 0.4rem;
+}
+.button a {
+  font-size: 1.6rem;
+}
+
+.main-nav {
+  width: 100%;
+  box-shadow: 0 0 0.6rem 0rem #2b300d;
+}
+.nav-items {
+  display: flex;
+  max-width: 45rem;
+  height: 5rem;
+  position: relative;
+  left: 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-items p {
+  border: none;
+  color: #2b300d;
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+.nav-items p:hover {
+  border-bottom: 0.2rem solid #2b300d;
+}
+
+.measurement-edit {
+  display: flex;
+  /* background-color: rgb(179, 162, 162); */
+  justify-content: space-evenly;
+  font-size: 10rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-radius: 1rem;
+}
+
+.measurement input {
+  text-align: left;
+  border: 0.1rem solid grey;
+  font-size: 1.3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #2b300d;
+  background-color: #e2e2e2;
+  width: 10rem;
+}
+
+input::placeholder {
+  font-size: 1.4rem;
+  color: #7e876d;
+}
+.shirt li,
+.pant li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.measureimg {
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.shirt,
+.pant {
+  margin: 2rem;
+}
+@media only screen and (max-width: 1190px) {
+  .order {
+    width: auto;
+  }
+
+  .order table {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 874px) {
+  .order {
+    padding: 2rem 2rem 2rem 2rem;
+    overflow-x: auto;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .measurement {
+    width: auto;
+  }
+  table,
+  th,
+  td {
+    font-size: 1.3rem;
+  }
+  .details {
+    max-width: 90%;
+    width: fit-content;
+    overflow-x: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .details-both {
+    display: block;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .measurement-details {
+    display: block;
+  }
+  .measurement {
+    width: fit-content;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .measurement-edit {
+    flex-direction: column;
+  }
+  .measure-pants table {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .details {
+    width: fit-content;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .details-view table {
+    padding: 0.2rem;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .details-view table,
+  th,
+  td {
+    padding: 0rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .details {
+    overflow-x: auto;
+    width: auto;
+  }
+}
