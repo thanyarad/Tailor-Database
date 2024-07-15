@@ -1,58 +1,110 @@
-### SmartStitch
+Here's a sample README file for your SmartStitch project on GitHub:
 
-SmartStitch is an innovative web platform designed to streamline the process of ordering tailor-made dresses. Clients can easily provide their measurements and place orders without the need to visit a tailor in person.
+---
 
-### Table of Contents
+# SmartStitch
 
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
+SmartStitch is a full-stack web application designed to streamline the interaction between tailors and their clients. It provides a user-friendly platform for managing client measurements, placing garment orders, and ensuring efficient communication.
+
+## Table of Contents
 - [Features](#features)
-- [Contributing](#contributing)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributors](#contributors)
 - [Acknowledgments](#acknowledgments)
-- [Contact](#contact)
+- [Contacts](#contacts)
 
-### Getting Started
+## Features
+- User registration and authentication
+- Profile management for clients
+- Order placement for garments (pants and shirts)
+- Admin portal for managing client data and orders
+- Measurement management for tailoring
+- Responsive design for accessibility on various devices
+- Secure data handling and encryption
 
-#### Prerequisites
+## Technologies Used
+### Front-End
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap (optional, if used)
 
-Ensure you have the following prerequisites before using SmartStitch:
+### Back-End
+- PHP
 
-- Web browser with JavaScript enabled
+### Database
+- MySQL
+- phpMyAdmin
 
-#### Installation
+### Hosting
+- 000WebHost
 
-No installation is required for clients. Tailor must login on the SmartStitch platform. For developers contributing to the project, follow these steps:
+## Installation
+### Prerequisites
+- PHP
+- MySQL
+- A web server (e.g., Apache)
+- Composer (for PHP dependencies)
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/SmartStitch.git
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AkashAcharya03/tailor-database.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd tailor-database
+   ```
+3. Import the MySQL database using `phpMyAdmin` or a similar tool:
+   - Create a database named `smartstitch`.
+   - Import the `smartstitch.sql` file located in the `database` directory.
 
-# Change directory
-cd SmartStitch
+4. Update the database configuration in `config.php`:
+   ```php
+   define('DB_SERVER', 'localhost');
+   define('DB_USERNAME', 'your_username');
+   define('DB_PASSWORD', 'your_password');
+   define('DB_NAME', 'smartstitch');
+   ```
 
-# Install dependencies
-npm install
+5. Start your web server and navigate to the project directory in your browser.
+
+## Usage
+1. Register as a new user or log in as an admin.
+2. Manage client profiles, place garment orders, and enter measurement details.
+3. Use the admin portal to view and manage client data and orders.
+
+## Project Structure
+```
+tailor-database/
+│
+├── database/
+│   └── smartstitch.sql
+│
+├── public/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   ├── index.php
+│   └── ...
+│
+├── src/
+│   ├── includes/
+│   ├── classes/
+│   └── ...
+│
+├── config.php
+├── README.md
+└── ...
 ```
 
-### Usage
-
-1. Visit the SmartStitch website.
-2. Create an account or log in if you're an existing user.
-3. Provide your measurements using the intuitive interface.
-4. Browse available dress options and customize as needed.
-5. Place your order and track its progress through the platform.
-
-### Features
-
-- **User-Friendly Interface:** Intuitive design for easy measurement input and order placement.
-- **Customization Options:** Clients can customize dresses based on their preferences.
-- **Order Tracking:** Real-time tracking of order status for both clients and tailors.
-
-### Contributing
-
+## Contributors
 We welcome contributions! If you'd like to contribute to SmartStitch, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+- [Your Name](https://github.com/AkashAcharya03)
+- [Other Team Members]
 
 ### Acknowledgments
 
