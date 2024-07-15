@@ -1,7 +1,3 @@
-Here's a sample README file for your SmartStitch project on GitHub:
-
----
-
 # SmartStitch
 
 SmartStitch is a full-stack web application designed to streamline the interaction between tailors and their clients. It provides a user-friendly platform for managing client measurements, placing garment orders, and ensuring efficient communication.
