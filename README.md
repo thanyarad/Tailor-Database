@@ -99,8 +99,6 @@ tailor-database/
 
 ## Contributors
 We welcome contributions! If you'd like to contribute to SmartStitch, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-- [Your Name](https://github.com/AkashAcharya03)
-- [Other Team Members]
 
 ### Acknowledgments
 
